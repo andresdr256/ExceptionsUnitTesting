@@ -65,7 +65,7 @@ public class StatisticsTest {
         // Then: GroupOccupancyExceededException was thrown
     }
 
-    @Test(expected = GroupOccupancyExceededException.class)
+    @Test
     public void givenOccupancyOf3_whenStudentsDuplicatedAdded_thenStudentIsNotDuplicatedOnGroup() throws GroupOccupancyExceededException{
         // Given:
         Student juan = new Student("Juan", "97249");

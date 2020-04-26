@@ -1,4 +1,4 @@
 package com.exceptions;
 
-public class MissedGradeException extends Exception {
+public class MissedGradeException extends RuntimeException {
 }

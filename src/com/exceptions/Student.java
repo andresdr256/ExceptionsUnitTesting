@@ -4,7 +4,7 @@ public class Student {
 
     private String name;
     private String id;
-    private int grade;
+    private Integer grade;
 
     public Student(String name, String id){
         this.name = name;
@@ -19,8 +19,12 @@ public class Student {
         return id;
     }
 
-    public void setGrade(int grade) {
+    public void setGrade(Integer grade) {
         this.grade = grade;
+    }
+
+    public Integer getGrade() {
+        return this.grade;
     }
 }
 
